@@ -23,7 +23,7 @@ namespace RestApi.Service
             foreach (var person in persons)
             {
                 var personCountry = await _apiService.GetCountryByIpAddress(person.IpAddress);
-                var personGender = await _apiService.GetGenderByName(person.Name, personCountry.Country);
+                var personGender = await _apiService.GetGenderByName(person.Name, personCountry.CountryCode);
 
                 var gender = personGender.Gender;
 
@@ -33,6 +33,7 @@ namespace RestApi.Service
                     Title = Helpers.GetGenderTitle(gender)
                 });
             }
+
             return invitations;
         }
     }

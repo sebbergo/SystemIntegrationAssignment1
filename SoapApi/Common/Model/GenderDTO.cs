@@ -17,7 +17,7 @@ namespace Common.Model
         Male = 0,
         [EnumMember(Value = "female")]
         Female = 1,
-        [EnumMember(Value = null)]
+        [EnumMember(Value = "none")]
         NonSpecified = 2
     }
 }

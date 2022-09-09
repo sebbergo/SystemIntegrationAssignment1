@@ -1,0 +1,12 @@
+C:\Users\sebas\Desktop\SystemIntegrationAssignment1\SoapApi\Common\obj\Debug\net6.0\Common.csproj.AssemblyReference.cache
+C:\Users\sebas\Desktop\SystemIntegrationAssignment1\SoapApi\Common\obj\Debug\net6.0\Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sebas\Desktop\SystemIntegrationAssignment1\SoapApi\Common\obj\Debug\net6.0\Common.AssemblyInfoInputs.cache
+C:\Users\sebas\Desktop\SystemIntegrationAssignment1\SoapApi\Common\obj\Debug\net6.0\Common.AssemblyInfo.cs
+C:\Users\sebas\Desktop\SystemIntegrationAssignment1\SoapApi\Common\obj\Debug\net6.0\Common.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Desktop\SystemIntegrationAssignment1\SoapApi\Common\bin\Debug\net6.0\Common.deps.json
+C:\Users\sebas\Desktop\SystemIntegrationAssignment1\SoapApi\Common\bin\Debug\net6.0\Common.dll
+C:\Users\sebas\Desktop\SystemIntegrationAssignment1\SoapApi\Common\bin\Debug\net6.0\Common.pdb
+C:\Users\sebas\Desktop\SystemIntegrationAssignment1\SoapApi\Common\obj\Debug\net6.0\Common.dll
+C:\Users\sebas\Desktop\SystemIntegrationAssignment1\SoapApi\Common\obj\Debug\net6.0\refint\Common.dll
+C:\Users\sebas\Desktop\SystemIntegrationAssignment1\SoapApi\Common\obj\Debug\net6.0\Common.pdb
+C:\Users\sebas\Desktop\SystemIntegrationAssignment1\SoapApi\Common\obj\Debug\net6.0\ref\Common.dll

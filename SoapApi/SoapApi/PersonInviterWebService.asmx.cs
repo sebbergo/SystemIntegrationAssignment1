@@ -1,8 +1,15 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using SoapApi.Models;
+using SoapApi.Services;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.Serialization;
+using System.Threading.Tasks;
 using System.Web;
 using System.Web.Services;
+using System.Xml.Linq;
+using System.Xml.Serialization;
 
 namespace SoapApi
 {
@@ -16,10 +23,19 @@ namespace SoapApi
     // [System.Web.Script.Services.ScriptService]
     public class PersonInviterWebService : System.Web.Services.WebService
     {
+        public InvitationService InvitationService = new InvitationService();
+
         [WebMethod]
-        public int HelloWorld(int firstNumber, int secondNumber)
+        public async Task<List<InvitationDto>> GenerateInvitationsFromRestApi(List<Person> persons)
         {
-            return firstNumber + secondNumber;
+            var invitations = await InvitationService.GenerateInvitations(persons);
+
+            //var json = JsonConvert.SerializeObject(invitations);
+
+            //XNode XmlInvitations = JsonConvert.DeserializeXNode(json, "Root");
+
+            return invitations;
         }
+        
     }
 }

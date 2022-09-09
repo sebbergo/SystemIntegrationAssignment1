@@ -4,7 +4,7 @@ namespace Common.Model
 {
     public class CountryDTO
     {
-        [JsonProperty("country")]
-        public string Country { get; set; }
+        [JsonProperty("countryCode")]
+        public string CountryCode { get; set; }
     }
 }

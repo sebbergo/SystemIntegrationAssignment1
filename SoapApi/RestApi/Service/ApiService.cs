@@ -13,11 +13,11 @@ namespace RestApi.Service
     public class ApiService : IApiService
     {
         // Country public service
-        private const string COUNTRY_SERVICE_URL = "https://ipapi.co/104.110.0.0/";
+        private const string COUNTRY_SERVICE_URL = "http://ip-api.com/json/";
         private const string COUNTRY_SERIVICE_MEDIA_TYPE = "application/json";
 
         // Gender public service
-        private const string GENDER_SERVICE_URl = "https://api.genderize.io/";
+        private const string GENDER_SERVICE_URl = "https://api.genderize.io";
         private const string GENDER_SERVICE_MEDIA_TYPE = "application/json";
 
         /// <summary>
@@ -29,7 +29,7 @@ namespace RestApi.Service
         public async Task<CountryDTO> GetCountryByIpAddress(string ipAddress)
         {
             var httpClient = HttpClientInitializer.GetClient(COUNTRY_SERVICE_URL, COUNTRY_SERIVICE_MEDIA_TYPE);
-            var url = $"{httpClient.BaseAddress}{ipAddress}/json/";
+            var url = $"{httpClient.BaseAddress}{ipAddress}";
             using (var response = await httpClient.GetAsync(url))
             {
                 if (response.IsSuccessStatusCode)
