@@ -25,7 +25,7 @@
             <IpAddress>176.23.218.202</IpAddress>
           </Person>
         </Persons>
-        <InvitationMessage>Hey nice bloinde girl</InvitationMessage>
+        <InvitationMessage>Message goes in here</InvitationMessage>
       </inputInvitationDto>
     </GenerateInvitationsFromRestApi>
   </soap:Body>
