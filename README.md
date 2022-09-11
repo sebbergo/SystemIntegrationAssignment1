@@ -35,5 +35,5 @@
 > :warning: Make sure that you have set Content-Type to test/xml
 
 
-
+**Step 3: Check your emails!
 
