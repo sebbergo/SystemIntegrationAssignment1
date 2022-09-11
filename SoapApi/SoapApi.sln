@@ -5,9 +5,9 @@ VisualStudioVersion = 17.1.32421.90
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoapApi", "SoapApi\SoapApi.csproj", "{69A5AED4-9999-4462-BFC0-493AFF03BFF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestApi", "RestApi\RestApi.csproj", "{0A8711CF-49EF-4595-B774-452EE39AA3A6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RestApi", "RestApi\RestApi.csproj", "{0A8711CF-49EF-4595-B774-452EE39AA3A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{6B127DF2-5E99-44E9-A252-F0AFEC1EE1E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "Common\Common.csproj", "{6B127DF2-5E99-44E9-A252-F0AFEC1EE1E5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

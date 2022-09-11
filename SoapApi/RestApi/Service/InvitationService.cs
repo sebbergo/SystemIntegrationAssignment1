@@ -30,7 +30,8 @@ namespace RestApi.Service
                 invitations.Add(new InvitationDto
                 {
                     Name = person.Name,
-                    Title = Helpers.GetGenderTitle(gender)
+                    Title = Helpers.GetGenderTitle(gender),
+                    Mail = person.Mail
                 });
             }
 

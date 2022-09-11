@@ -1,28 +1,37 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sebas\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\RestApi\\RestApi.csproj": {}
+    "C:\\Users\\phillip\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\RestApi\\RestApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sebas\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\Common\\Common.csproj": {
+    "C:\\Users\\phillip\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\Common\\Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sebas\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\Common\\Common.csproj",
+        "projectUniqueName": "C:\\Users\\phillip\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\Common\\Common.csproj",
         "projectName": "Common",
-        "projectPath": "C:\\Users\\sebas\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\Common\\Common.csproj",
-        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sebas\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\Common\\obj\\",
+        "projectPath": "C:\\Users\\phillip\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\Common\\Common.csproj",
+        "packagesPath": "C:\\Users\\phillip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\phillip\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\Common\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\phillip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Users\\phillip\\Desktop\\NuGetPackages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/ZbK5njfbJco11T9pcL4F9qT4onxMvHTKRsoT9ZqT5E1PKrEhuL/api": {}
         },
         "frameworks": {
           "net6.0": {
@@ -51,8 +60,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -61,36 +69,45 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\sebas\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\RestApi\\RestApi.csproj": {
+    "C:\\Users\\phillip\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\RestApi\\RestApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sebas\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\RestApi\\RestApi.csproj",
+        "projectUniqueName": "C:\\Users\\phillip\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\RestApi\\RestApi.csproj",
         "projectName": "RestApi",
-        "projectPath": "C:\\Users\\sebas\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\RestApi\\RestApi.csproj",
-        "packagesPath": "C:\\Users\\sebas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sebas\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\RestApi\\obj\\",
+        "projectPath": "C:\\Users\\phillip\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\RestApi\\RestApi.csproj",
+        "packagesPath": "C:\\Users\\phillip\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\phillip\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\RestApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\Offline Packages",
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\sebas\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\phillip\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 21.1.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\DevExpress 21.1\\Components\\System\\Components\\Packages": {},
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Users\\phillip\\Desktop\\NuGetPackages": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.devexpress.com/ZbK5njfbJco11T9pcL4F9qT4onxMvHTKRsoT9ZqT5E1PKrEhuL/api": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\sebas\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\Common\\Common.csproj": {
-                "projectPath": "C:\\Users\\sebas\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\Common\\Common.csproj"
+              "C:\\Users\\phillip\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\Common\\Common.csproj": {
+                "projectPath": "C:\\Users\\phillip\\Desktop\\SystemIntegrationAssignment1\\SoapApi\\Common\\Common.csproj"
               }
             }
           }
@@ -120,8 +137,7 @@
             "net47",
             "net471",
             "net472",
-            "net48",
-            "net481"
+            "net48"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -133,7 +149,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

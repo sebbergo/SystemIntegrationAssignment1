@@ -119,6 +119,7 @@
     <Compile Include="Helpers\Helpers.cs" />
     <Compile Include="HttpUtils\HttpClientInitializer.cs" />
     <Compile Include="Models\GenderEnum.cs" />
+    <Compile Include="Models\InputInvitationDto.cs" />
     <Compile Include="Models\InvitationDto.cs" />
     <Compile Include="Models\Person.cs" />
     <Compile Include="PersonInviterWebService.asmx.cs">
@@ -126,6 +127,7 @@
       <SubType>Component</SubType>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Services\EmailService.cs" />
     <Compile Include="Services\InvitationService.cs" />
   </ItemGroup>
   <ItemGroup>

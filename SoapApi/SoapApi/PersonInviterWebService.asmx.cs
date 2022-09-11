@@ -1,15 +1,8 @@
-﻿using Newtonsoft.Json;
-using SoapApi.Models;
+﻿using SoapApi.Models;
 using SoapApi.Services;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.Serialization;
 using System.Threading.Tasks;
-using System.Web;
 using System.Web.Services;
-using System.Xml.Linq;
-using System.Xml.Serialization;
 
 namespace SoapApi
 {
@@ -26,16 +19,10 @@ namespace SoapApi
         public InvitationService InvitationService = new InvitationService();
 
         [WebMethod]
-        public async Task<List<InvitationDto>> GenerateInvitationsFromRestApi(List<Person> persons)
+        public async Task<List<InvitationDto>> GenerateInvitationsFromRestApi(InputInvitationDto inputInvitationDto)
         {
-            var invitations = await InvitationService.GenerateInvitations(persons);
-
-            //var json = JsonConvert.SerializeObject(invitations);
-
-            //XNode XmlInvitations = JsonConvert.DeserializeXNode(json, "Root");
-
+            var invitations = await InvitationService.GenerateInvitations(inputInvitationDto).ConfigureAwait(false); // Configure await false, since this old version can't handle async/await
             return invitations;
         }
-        
     }
 }

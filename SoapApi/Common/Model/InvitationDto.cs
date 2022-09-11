@@ -2,12 +2,8 @@
 {
     public class InvitationDto
     {
-        public string? Title { get; set; }
-        public string? Name { get; set; }
-
-        public override string? ToString()
-        {
-            return $"Dear {this.Title} {this.Name}";
-        }
+        public string Title { get; set; } = string.Empty;
+        public string Name { get; set; } = string.Empty;
+        public string Mail { get; set; } = string.Empty;
     }
 }

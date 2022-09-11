@@ -9,10 +9,7 @@ namespace SoapApi.Models
     {
         public string Title { get; set; }
         public string Name { get; set; }
-
-        public override string ToString()
-        {
-            return $"Dear {this.Title} {this.Name}";
-        }
+        public string Mail { get; set; }
+        public string InvitationMessage { get; set; }
     }
 }

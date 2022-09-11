@@ -2,8 +2,9 @@
 {
     public class Person
     {
-        public string Name { get; set; }
-        public string Mail { get; set; }
-        public string IpAddress { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string Mail { get; set; } = string.Empty;
+        public string IpAddress { get; set; } = string.Empty;
+
     }
 }
